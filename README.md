@@ -1,6 +1,6 @@
 # JSON Translator Script
 
-This script is designed to translate values from a JSON file to multiple target languages using the Google Translate API. It utilizes the `googletrans` library for translation and provides an easy way to translate content across different languages.
+This script is designed to translate values from a JSON file to multiple target languages using the `translate` library for translation and provides an easy way to translate content across different languages.
 
 ## Features
 
@@ -15,7 +15,7 @@ Before using the script, make sure you have the following installed:
 
 - Python (version 3.6 or later)
 - Required Python packages (install using `pip`):
-  - `googletrans`
+  - `translate`
   - `tqdm`
 
 ## Usage
@@ -31,19 +31,11 @@ python script_name.py
 Replace `script_name.py` with the actual name of your script.
 5. The translated JSON files will be saved in the `output` folder.
 
-## Notes
-
-- Keep in mind that the Google Translate API might have usage limitations and restrictions, especially if used extensively.
-- Make sure to handle any API usage limits or authentication requirements according to the `googletrans` documentation.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
 - This script was inspired by the need to translate content efficiently across languages.
-- Thanks to the developers of `googletrans` and `tqdm` for their useful libraries.
+- Thanks to the developers of `translate` and `tqdm` for their useful libraries.
 
 Feel free to contribute, report issues, or suggest improvements!
 
