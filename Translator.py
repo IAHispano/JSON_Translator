@@ -17,9 +17,9 @@ def translate_values(json_data, input_language, target_language):
     return translated_data
 
 if __name__ == "__main__":
-    input_file = "es_ES.json"
-    input_language = "es"
-    target_languages = ["en", "zh-cn", "es", "hi", "ar", "bn", "pt", "ru", "ja", "pa", "de", "jv", "ms", "wu", "te",
+    input_file = "en_US.json"
+    input_language = "en"
+    target_languages = ["es", "zh-cn", "hi", "ar", "bn", "pt", "ru", "ja", "pa", "de", "jv", "ms", "wu", "te",
                    "vi", "ko", "fr", "mr", "ta", "ur", "tr", "it", "th", "gu", "fa", "pl", "uk", "ro", "nl", "hu"]
 
     with open(input_file, "r", encoding="utf-8") as f:
