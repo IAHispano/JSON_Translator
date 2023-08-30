@@ -27,8 +27,10 @@ Before using the script, make sure you have the following installed:
    - `target_languages`: List of target language codes you want to translate to.
 3. Open a terminal/command prompt and navigate to the script directory.
 4. Run the script using the command:
+```
 python Translator.py
-5. The translated JSON files will be saved in the `output` folder.
+```
+6. The translated JSON files will be saved in the `output` folder.
 
 
 ## Acknowledgments
